@@ -1,0 +1,85 @@
+
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        background-color: rgb(255, 255, 255);
+        color: rgb(153, 99, 0);
+        overflow-x:hidden ;
+    }
+    
+    .navbar {
+        float: right;
+    }
+    
+    .container {
+        background-color: rgb(173, 173, 173);
+    }
+    
+    .container-fluid {
+        background-image: url("https://eskipaper.com/images/louis-vuitton-logo-1.jpg");
+        height: 500px;
+    }
+    
+    .bc {
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .c2 {
+        background-image: url("https://eu.louisvuitton.com/content/dam/lv/online/stories/fashion/U_Fa_Holidays_2020.html/jcr:content/assets/campaign/Alicia_Hardsided_DII-480w.jpg");
+    }
+    
+    .m1 {
+        background-image: url("https://www.yoogiscloset.com/media/wordpress/2019/02/Louis-Vuitton-Monogram-Speedy-SLG-Collection.jpg");
+    }
+    
+    .m2 {
+        background-image: url("https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-lvxnba-soft-trunk-phone-box-bag--M80102_PM1_Worn%20view.png?wid=640&hei=640&impolicy=bgcolor&bgcolor=%23f6f5f3");
+    }
+    
+    .m3 {
+        background-image: url("https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton--U_Ce_Twist_China_DI2.jpg?wid=824");
+    }
+    
+    .m4 {
+        background-image: url("https://images.unsplash.com/photo-1492707892479-7bc8d5a4ee93?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YWNjZXNzb3JpZXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80");
+    }
+    
+    .m5 {
+        background-image: url("https://eu.louisvuitton.com/content/dam/lv/online/stories/fashion/M_Fa_LV_x_NBA.html/jcr:content/assets/campaign/campaign_01-480w.jpg");
+    }
+    
+    .det {
+        display: none;
+    }
+    
+    a:hover .det {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(180, 119, 4);
+        display: grid;
+        place-items: center;
+        opacity: 0.8;
+    }
+    
+    a:hover .det h1 {
+        color: rgb(8, 8, 8, 1);
+    }
+    
+    .m1,
+    .m2,
+    .m3,
+    .m4,
+    .m5 {
+        height: 500px;
+    }
+    
+    .a1 {
+        width: 66.66667%;
+    }
+    
+    .a2 {
+        width: 33.33%;
+    }
